@@ -286,6 +286,7 @@
     
     .footer-frame__about {
         padding-bottom: 0;
+        padding-left: 20px;
     }
 
     .footer-frame__service {

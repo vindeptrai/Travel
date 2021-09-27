@@ -558,6 +558,7 @@
     line-height: 38px;
 }
 .content__background-sub-heading {
+    width: 311px;
     font-size: 50px;
     color: #fff;
     font-weight: 700;

@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./assets/img/love__travel/travel.png" sizes="32x32" />
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Travel</title>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <!-- background -->
+            <div style="background-image: url(./assets/img/love__travel/parallax-2.jpg);" class="background"></div>
+
+                <!-- Navbar -->
+                <div class="header__navbar">
+                   <a style="text-decoration: none;" href=""><img class="header__navbar-logo" src="./assets/img/love__travel/logo.png" alt=""></a>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item"><a href="">HOME</a></li>
+                        <li class="header__navbar-item"><a href="">PACKAGES</a>
+                            <ul class="header-subnav">
+                                <li class="header-subnav__item"><a href="">Honeymoon <span class="label-hot">HOT</span></a></li>
+                                <li class="header-subnav__item"><a href="">Destination</a></li>
+                                <li class="header-subnav__item header-subnav__menu"><a href="">Tour Package <i class="fas fa-caret-right"></i></a>
+                                    <ul class="header-sub-menu">
+                                        <li class="header-submenu-item">
+                                            <a href="">Carousel <span class="label-best">BEST</span></a>
+                                        </li>
+                                        <li class="header-submenu-item"><a href="">Custom Map</a></li>
+                                        <li class="header-submenu-item"><a href="">360<sup>o</sup>Panorama</a></li>
+                                    </ul>
+                                </li>
+                                <li class="header-subnav__item"><a href="">Typology</a></li>
+                                <li class="header-subnav__item"><a href="">Custom</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-item"><a href="">SHOP</a>
+                            <ul class="header-subnav">
+                                <li class="header-subnav__item"><a href="">Archive</a></li>
+                                <li class="header-subnav__item"><a href="">Single Product</a></li>
+                                <li class="header-subnav__item"><a href="">Cart</a></li>
+                                <li class="header-subnav__item"><a href="">Checkout</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-item"><a href="">SERVICE</a>
+                            <ul class="header-subnav">
+                                <li class="header-subnav__item"><a href="">Agency Tour</a></li>
+                                <li class="header-subnav__item"><a href="">Testimonials</a></li>
+                                <li class="header-subnav__item"><a href="">Price <span class="label-new">NEW</span></a></li>
+                                <li class="header-subnav__item"><a href="">Promotion  <span class="label-best">BEST</span></a></li>
+                                <li class="header-subnav__item"><a href="">Coming soon</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-item"><a href="">NEWS</a></li>
+                        <li class="header__navbar-item"><a href="">ABOUT US</a></li>
+                        <li class="header__navbar-item"><a href="">MORE</a>
+                            <ul class="header-subnav">
+                                <li class="header-subnav__item"><a href="">Help</a></li>
+                                <li class="header-subnav__item"><a href="">Contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <a href="" class="btn">BOOK NOW</a>
+
+                    <!-- Open -->
+                    <input type="radio" name="click" id="menu-open">
+                    <label for="menu-open" class="header__navbar-menu">
+                        <img src="./assets/img/love__travel/menu.png" alt="">
+                    </label>
+
+                    <div class="slide-bar">
+                        <!-- CLose -->
+                        <input type="radio" name="click" id="menu-close">
+                        <label class="slide-bar-btn" for="menu-close"><img class="slide-bar-close-img" src="./assets/img/love__travel/error.png" alt=""></label>
+                        
+                        
+                        <div class="slide-bar-menu">
+
+                            <div class="slide-bar-menu__wrap">
+                                <div class="slide-bar-menu__combo">
+                                    <p class="slide-bar-menu__heading">BEST</p>
+                                    <u>PACKAGES</u>
+                                </div>
+    
+                                <div class="slide-bar-menu__place">
+                                    <img src="./assets/img/love__travel/package-1-1024x640.jpg" alt="" class="slide-bar-menu__place-img">
+                                    <div class="slide-bar-menu__infor">
+                                        <h3 class="slide-bar-menu__name">Berlin</h3>
+                                        <span class="slide-bar-menu__continents"><i class="locate-icon fas fa-map-marker-alt"></i> Europe</span>
+                                        <a href="" class="slide-bar-menu__price label-price">FROM 700 $</a>
+                                    </div>
+                                </div>
+    
+                                <div class="slide-bar-menu__place">
+                                    <img src="./assets/img/love__travel/package-6-1024x640.jpg" alt="" class="slide-bar-menu__place-img">
+                                    <div class="slide-bar-menu__infor">
+                                        <h3 class="slide-bar-menu__name">Hong Kong</h3>
+                                        <span class="slide-bar-menu__continents"><i class="locate-icon fas fa-map-marker-alt"></i> Asia</span>
+                                        <a href="" class="slide-bar-menu__price label-price-hongkong">FROM 500 $</a>
+                                    </div>
+                                </div>
+    
+                                <div class="slide-bar-menu__place">
+                                    <img src="./assets/img/love__travel/package-2-150x150.jpg" alt="" class="slide-bar-menu__place-img">
+                                    <div class="slide-bar-menu__infor">
+                                        <h3 class="slide-bar-menu__name">San Francisco</h3>
+                                        <span class="slide-bar-menu__continents"><i class="locate-icon fas fa-map-marker-alt"></i> United States</span>
+                                        <a href="" class="slide-bar-menu__price label-price-us">FROM 700 $</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-bar__quick-view">
+                                <div class="slide-bar__quick-wrap">
+                                    <img src="./assets/img/love__travel/destination-9.jpg" alt="" class="slide-bar__quick-view-img">
+
+                                    <div class="slide-bar__quick-filter">
+                                        <img src="./assets/img/love__travel/arch.png" alt="" class="slide-bar__quick-filter-img">
+                                        <div class="slide-bar__quick-desc">
+                                            <h3 class="slide-bar__quick-desc-continents">Europe</h3>
+                                            <span class="slide-bar__quick-desc-pack">3 PACKAGES</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="slide-bar__infor">
+                                        <div class="slide-bar__infor-wrap">
+                                            <h3 class="slide-bar__infor-heading">Packages</h3>
+                                            <a href="" class="slide-bar__infor-name">Berlin</a>
+                                            <a href="" class="slide-bar__infor-name">Amsterdam</a>
+                                            <a href="" class="slide-bar__infor-name">Tuscany</a>
+                                            <div class="slide-bar__infor-view-wrap">
+                                                <a href="" class="slide-bar__infor-view view-btn">VIEW DESTINATION</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-bar-menu__wrap">
+                                <div class="slide-bar-menu__combo">
+                                    <p class="slide-bar-menu__heading">LAST</p>
+                                    <u>MINUTES</u>
+                                </div>
+    
+                                <div class="slide-bar-menu__place">
+                                    <img src="./assets/img/love__travel/destination-8.jpg" alt="" class="slide-bar-menu__place-img">
+                                    <div class="slide-bar-menu__infor">
+                                        <h3 class="slide-bar-menu__name">Japan</h3>
+                                        <span class="slide-bar-menu__continents"><i class="fas fa-map-marker-alt"></i> Asia</span>
+                                        <a href="" class="slide-bar-menu__price label-price-japan">FROM 600 $</a>
+                                    </div>
+                                </div>
+    
+                                <div class="slide-bar-menu__place">
+                                    <img src="./assets/img/love__travel/package-4-150x150.jpg" alt="" class="slide-bar-menu__place-img">
+                                    <div class="slide-bar-menu__infor">
+                                        <h3 class="slide-bar-menu__name">Amsterdam</h3>
+                                        <span class="slide-bar-menu__continents"><i class="fas fa-map-marker-alt"></i> Netherland</span>
+                                        <a href="" class="slide-bar-menu__price label-price-hongkong">FROM 500 $</a>
+                                    </div>
+                                </div>
+    
+                                <div class="slide-bar-menu__place">
+                                    <img src="./assets/img/love__travel/package-3-150x150.jpg" alt="" class="slide-bar-menu__place-img">
+                                    <div class="slide-bar-menu__infor">
+                                        <h3 class="slide-bar-menu__name">Phuket</h3>
+                                        <span class="slide-bar-menu__continents"><i class="locate-icon fas fa-map-marker-alt"></i> Thailandia</span>
+                                        <a href="" class="slide-bar-menu__price label-price-thailan">FROM 800 $</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            <div class="header__wrap">
+                <h3 class="header__title">Search your next <u>Holiday</u></h3>
+                <p class="header__desc">CHECK OUR BEST PROMOTIONS</p>
+                <!-- Select form -->
+                <form class="header__form" action="">
+                    <div class="header__form-option">
+                        <select class="header__form-select" name="travel" id="">
+                            <option value="0">Choose your Destination...</option>
+                            <option value="1">Europe</option>
+                            <option value="2">&nbsp;&nbsp;- Italy</option>
+                            <option value="3">&nbsp;&nbsp;- Netherlands</option>
+                            <option value="4">Asia</option>
+                            <option value="5">&nbsp;&nbsp;- Vietnam</option>
+                            <option value="6">United States</option>
+                            <option value="7">Oceania</option>
+                        </select>
+                    </div>
+
+                    <div class="header__form-search">
+                        <i class="header__form-search-icon ti-search"></i>
+                    </div>
+                </form>
+
+
+                <div class="header__iconic">
+                    <a href="" class="header__iconic-wrap">
+                        <div class="header__iconic-item">
+                            <img src="./assets/img/love__travel/t-relax.png" alt="" class="header__iconic-img">
+                            <h6 class="header__iconic-name">RELAX</h6>
+                        </div>
+                    </a>
+
+                    <a href="" class="header__iconic-wrap">
+                        <div class="header__iconic-item">
+                            <img src="./assets/img/love__travel/t-cultural.png" alt="" class="header__iconic-img">
+                            <h6 class="header__iconic-name">CULTURAL</h6>
+                        </div>
+                    </a>
+
+                    <a href="" class="header__iconic-wrap">
+                        <div class="header__iconic-item">
+                            <img src="./assets/img/love__travel/t-sport.png" alt="" class="header__iconic-img">
+                            <h6 class="header__iconic-name">SPORT</h6>
+                        </div>
+                    </a>
+
+                    <a href="" class="header__iconic-wrap">
+                        <div class="header__iconic-item">
+                            <img src="./assets/img/love__travel/t-history.png" alt="" class="header__iconic-img">
+                            <h6 class="header__iconic-name">HISTORY</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+           <div class="content__heading">
+               <p class="content__heading-title">OUR PROPOSALS</p>
+               <span class="content__heading-sub-title">OUR <u class="style-underline">DESTINATION</u></span>
+           </div>
+
+           <!-- Our Destination -->
+           <div class="content__destination">
+               <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column">
+                         <div class="slide-bar__quick-view">
+                         <div class="slide-bar__quick-wrap">
+                             <img src="./assets/img/love__travel/destination-9.jpg" alt="" class="slide-bar__quick-view-img">
+    
+                             <div class="slide-bar__quick-filter">
+                                 <img src="./assets/img/love__travel/arch.png" alt="" class="slide-bar__quick-filter-img">
+                                 <div class="slide-bar__quick-desc">
+                                     <h3 class="slide-bar__quick-desc-continents">Europe</h3>
+                                     <span class="slide-bar__quick-desc-pack">3 PACKAGES</span>
+                                 </div>
+                             </div>
+    
+                             <div class="slide-bar__infor">
+                                 <div class="slide-bar__infor-wrap">
+                                     <h3 class="slide-bar__infor-heading">Packages</h3>
+                                     <a href="" class="slide-bar__infor-name">Berlin</a>
+                                     <a href="" class="slide-bar__infor-name">Amsterdam</a>
+                                     <a href="" class="slide-bar__infor-name">Tuscany</a>
+                                     <div class="slide-bar__infor-view-wrap">
+                                         <a href="" class="slide-bar__infor-view view-btn">VIEW DESTINATION</a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         </div>
+                    </div>
+    
+                    <div class="grid__column">
+                     <div class="slide-bar__quick-view">
+                     <div class="slide-bar__quick-wrap">
+                         <img src="./assets/img/love__travel/destination-5-720x720.jpg" alt="" class="slide-bar__quick-view-img">
+    
+                         <div class="slide-bar__quick-filter">
+                             <img src="./assets/img/love__travel/buddha.png" alt="" class="slide-bar__quick-filter-img">
+                             <div class="slide-bar__quick-desc">
+                                 <h3 class="slide-bar__quick-desc-continents">Thailandia</h3>
+                                 <span class="slide-bar__quick-desc-pack">1 PACKAGES</span>
+                             </div>
+                         </div>
+    
+                         <div class="slide-bar__infor">
+                             <div class="slide-bar__infor-wrap">
+                                 <h3 class="slide-bar__infor-heading">Packages</h3>
+                                 <a href="" class="slide-bar__infor-name">Phuket</a>
+                                 <div class="slide-bar__infor-view-wrap">
+                                     <a href="" class="slide-bar__infor-view view-btn">VIEW DESTINATION</a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     </div>
+                    </div>
+    
+                     <div class="grid__column">
+                         <div class="slide-bar__quick-view">
+                         <div class="slide-bar__quick-wrap">
+                             <img src="./assets/img/love__travel/destination-8.jpg" alt="" class="slide-bar__quick-view-img">
+    
+                             <div class="slide-bar__quick-filter">
+                                 <img src="./assets/img/love__travel/torii-gate.png" alt="" class="slide-bar__quick-filter-img">
+                                 <div class="slide-bar__quick-desc">
+                                     <h3 class="slide-bar__quick-desc-continents">Asia</h3>
+                                     <span class="slide-bar__quick-desc-pack">4 PACKAGES</span>
+                                 </div>
+                             </div>
+    
+                             <div class="slide-bar__infor">
+                                 <div class="slide-bar__infor-wrap">
+                                     <h3 class="slide-bar__infor-heading">Packages</h3>
+                                     <a href="" class="slide-bar__infor-name">Tokyo</a>
+                                     <a href="" class="slide-bar__infor-name">Sapporo</a>
+                                     <a href="" class="slide-bar__infor-name">Osaka</a>
+                                     <div class="slide-bar__infor-view-wrap">
+                                         <a href="" class="slide-bar__infor-view view-btn">VIEW DESTINATION</a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         </div>
+                     </div>
+    
+                     <div class="grid__column">
+                        <div class="slide-bar__quick-view">
+                        <div class="slide-bar__quick-wrap">
+                            <img src="./assets/img/love__travel/destination-10.jpg" alt="" class="slide-bar__quick-view-img">
+       
+                            <div class="slide-bar__quick-filter">
+                                <img src="./assets/img/love__travel/pisa.png" alt="" class="slide-bar__quick-filter-img">
+                                <div class="slide-bar__quick-desc">
+                                    <h3 class="slide-bar__quick-desc-continents">Italy</h3>
+                                    <span class="slide-bar__quick-desc-pack">7 PACKAGES</span>
+                                </div>
+                            </div>
+       
+                            <div class="slide-bar__infor">
+                                <div class="slide-bar__infor-wrap">
+                                    <h3 class="slide-bar__infor-heading">Packages</h3>
+                                    <a href="" class="slide-bar__infor-name">Roma</a>
+                                    <a href="" class="slide-bar__infor-name">Milan</a>
+                                    <a href="" class="slide-bar__infor-name">Napoli</a>
+                                    <div class="slide-bar__infor-view-wrap">
+                                        <a href="" class="slide-bar__infor-view view-btn">VIEW DESTINATION</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                       </div>
+    
+                       <div class="grid__column">
+                        <div class="slide-bar__quick-view">
+                        <div class="slide-bar__quick-wrap">
+                            <img src="./assets/img/love__travel/destination-11.jpg" alt="" class="slide-bar__quick-view-img">
+       
+                            <div class="slide-bar__quick-filter">
+                                <img src="./assets/img/love__travel/london-eye.png" alt="" class="slide-bar__quick-filter-img">
+                                <div class="slide-bar__quick-desc">
+                                    <h3 class="slide-bar__quick-desc-continents">Netherlands</h3>
+                                    <span class="slide-bar__quick-desc-pack">1 PACKAGES</span>
+                                </div>
+                            </div>
+       
+                            <div class="slide-bar__infor">
+                                <div class="slide-bar__infor-wrap">
+                                    <h3 class="slide-bar__infor-heading">Packages</h3>
+                                    <a href="" class="slide-bar__infor-name">Amsterdam</a>
+                                    <div class="slide-bar__infor-view-wrap">
+                                        <a href="" class="slide-bar__infor-view view-btn">VIEW DESTINATION</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                       </div>
+    
+                       <div class="grid__column">
+                        <div class="slide-bar__quick-view">
+                        <div class="slide-bar__quick-wrap">
+                            <img src="./assets/img/love__travel/destination-1-1-720x720.jpg" alt="" class="slide-bar__quick-view-img">
+       
+                            <div class="slide-bar__quick-filter">
+                                <img src="./assets/img/love__travel/golden-gate.png" alt="" class="slide-bar__quick-filter-img">
+                                <div class="slide-bar__quick-desc">
+                                    <h3 class="slide-bar__quick-desc-continents">United States</h3>
+                                    <span class="slide-bar__quick-desc-pack">2 PACKAGES</span>
+                                </div>
+                            </div>
+       
+                            <div class="slide-bar__infor">
+                                <div class="slide-bar__infor-wrap">
+                                    <h3 class="slide-bar__infor-heading">Packages</h3>
+                                    <a href="" class="slide-bar__infor-name">San Francisco</a>
+                                    <a href="" class="slide-bar__infor-name">New York</a>
+                                    <div class="slide-bar__infor-view-wrap">
+                                        <a href="" class="slide-bar__infor-view view-btn">VIEW DESTINATION</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                       </div>
+                </div>
+               </div>
+           </div>
+
+           <!-- Background content -->
+           <div style="background-image: url(./assets/img/love__travel/parallax-search-2.jpg);" class="content__background">
+                <div class="content__background-wrap">
+                    <h6 class="content__background-heading">Your</h6>
+                    <h6 class="content__background-sub-heading">Next <u class="content__background-highlight">Holiday</u></h6>
+                </div>
+
+                <div class="content__background-btn">
+                    <a href="" class="view-btn">View all packages</a>
+                </div>
+           </div>
+
+           <!-- Best place and Sale -->
+           <div class="content__best-place">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-35">
+                            <div class="content-best">
+                                <p class="content__heading-title">NORTH AMERICA</p>
+                                <span style="font-size: 31px;" class="content__heading-sub-title">The Best <u class="content__heading-best">Beaches</u></span>
+                                <p class="content-best__text">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies mauris ac.</p>
+                                <p class="content-best__text">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies mauris ac.</p>
+    
+                                <div class="content-best__price">
+                                    <span class="content-best__price-old">800</span>
+                                    <span class="content-best__price-new">500 $</span>
+                                    <span class="content-best__price-person"><span>/</span> FOR PERSON</span>
+                                </div>
+                                <a href="" class="content-best__price-btn btn">BOOK NOW</a>
+                            </div>
+                        </div>
+    
+                        <div class="grid__column-65">
+                            <div class="slider-contain">
+                                <div class="slider-view">
+                                    <input type="radio" name="slider" id="slider1">
+                                    <input type="radio" name="slider" id="slider2">
+                                    <input type="radio" name="slider" id="slider3">
+    
+                                    <div class="slider-view__container">
+                                        <div class="slide s1"></div>
+                                        <div class="slide s2"></div>
+                                        <div class="slide s3"></div>
+                                    </div>
+    
+                                    <div class="slider-button">
+                                        <label for="slider1" class="slider-button__label"></label>
+                                        <label for="slider2" class="slider-button__label"></label>
+                                        <label for="slider3" class="slider-button__label"></label>
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+    
+                            <div class="frame-time">
+                                <!-- Days -->
+                                <div class="frame-time__sale">
+                                    <h1 class="frame-time__sale-num">000</h1>
+                                    <h6 class="frame-time__sale-now">DAYS</h6>
+                                </div>
+                                <!-- Hour -->
+                                <div class="frame-time__sale">
+                                    <h1 class="frame-time__sale-num">00</h1>
+                                    <h6 class="frame-time__sale-now">HOURS</h6>
+                                </div>
+                                <!-- Minutes -->
+                                <div class="frame-time__sale">
+                                    <h1 class="frame-time__sale-num">00</h1>
+                                    <h6 class="frame-time__sale-now">MINUTES</h6>
+                                </div>
+                                <!-- Seconds -->
+                                <div class="frame-time__sale">
+                                    <h1 class="frame-time__sale-num">00</h1>
+                                    <h6 class="frame-time__sale-now">SECONDS</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+
+           <!-- vehicle -->
+           <div class="grid">
+            <div class="grid__row mt-100">
+                <div class="grid__column">
+                    <div class="vehicle">
+                        <img src="./assets/img/love__travel/icon-around.png" alt="" class="vehicle__img">
+                        <div class="vehicle__desc">
+                            <h3 class="vehicle__heading">World Tour</h3>
+                            <p class="vehicle__text">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                            <a href="" class="vehicle__view">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid__column">
+                    <div class="vehicle">
+                        <img src="./assets/img/love__travel/icon-boat.png" alt="" class="vehicle__img">
+                        <div class="vehicle__desc">
+                            <h3 class="vehicle__heading">Cruises</h3>
+                            <p class="vehicle__text">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                            <a href="" class="vehicle__view">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid__column">
+                    <div class="vehicle">
+                        <img src="./assets/img/love__travel/icon-landmark.png" alt="" class="vehicle__img">
+                        <div class="vehicle__desc">
+                            <h3 class="vehicle__heading">Best Tour</h3>
+                            <p class="vehicle__text">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                            <a href="" class="vehicle__view">View More</a>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           </div>
+
+           <!-- Discovery -->
+           <div class="content__discovery">
+               <div class="content__discovery-city">
+                   <div class="content__discovery-city__wrap">
+                       <p class="content__discovery-city__title">01. LAST MINUTE</p>
+                       <h3 class="content__discovery-city__heading">Discover Cities</h3>
+                       <a href="" class="content__discovery-city__btn view-btn">DETAILS</a>
+                   </div>
+               </div>
+
+               <div class="content__discovery-nature">
+                <div class="content__discovery-nature__wrap">
+                    <p class="content__discovery-nature__title">02. PROMOTIONS</p>
+                    <h3 class="content__discovery-nature__heading">Discover Nature</h3>
+                    <a href="" class="content__discovery-nature__btn view-btn">DETAILS</a>
+                </div>
+            </div>
+               
+           </div>
+
+           <div class="content__packages">
+                <div class="content__heading">
+                    <p class="content__heading-title">PROMOTIONS</p>
+                    <span class="content__heading-sub-title">OUR <u class="style-underline">PACKAGES</u></span>
+                </div>
+
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column">
+                            <div class="packages">
+                                <a href="" class="packages__link">
+                                    <img src="./assets/img/love__travel/package-1-1024x640.jpg" alt="" class="packages__img">
+                                </a>
+
+                                <div class="packages-infor-wrap">
+                                    <div class="packages__infor">
+                                        <h3 class="packages__place">Berlin</h3>
+                                        <span class="packages__continents"><i class="locate-icon fas fa-map-marker-alt"></i> Europe</span>
+
+                                        <a href="" class="packages__iconic-yellow">
+                                            <img src="./assets/img/love__travel/arch.png" alt="" class="packages__iconic-img">
+                                        </a>
+                                    </div>
+
+                                    <div class="packages__price">
+                                        <div class="packages__purpose">
+                                            <a href="" class="packages__purpose-text">CULTURAL</a>
+                                            <div class="packages__purpose-wrap">
+                                                <a href="" class="packages__purpose-text">RELAX</a>
+                                                <span class="label-plus-yellow">+ 1</span>
+                                            </div>
+                                        </div>
+
+                                        <h2 class="packages__price-now">400 $</h2>
+                                    </div>
+
+                                    <div class="packages__introduce">
+                                        <p class="packages__introduce-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                                        <a href="" class="packages-introduce-btn-yellow view-btn">DETAILS</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid__column">
+                            <div class="packages">
+                                <a href="" class="packages__link">
+                                    <img src="./assets/img/love__travel/package-6-1024x640.jpg" alt="" class="packages__img">
+                                </a>
+
+                                <div class="packages-infor-wrap">
+                                    <div class="packages__infor">
+                                        <h3 class="packages__place">Hong Kong</h3>
+                                        <span class="packages__continents"><i class="locate-icon fas fa-map-marker-alt"></i> Asia</span>
+                                    
+                                        <a href="" class="packages__iconic-red">
+                                            <img src="./assets/img/love__travel/torii-gate.png" alt="" class="packages__iconic-img">
+                                        </a>
+                                    </div>
+
+                                    <div class="packages__price">
+                                        <div class="packages__purpose">
+                                            <a href="" class="packages__purpose-text">HISTORY</a>
+                                            <div class="packages__purpose-wrap">
+                                                <a href="" class="packages__purpose-text">CULTURAL</a>
+                                                <span class="label-plus-red">+ 1</span>
+                                            </div>
+                                        </div>
+
+                                        <h2 class="packages__price-now">500 $</h2>
+                                    </div>
+
+                                    <div class="packages__introduce">
+                                        <p class="packages__introduce-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                                        <a href="" class="packages-introduce-btn-red view-btn">DETAILS</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid__column">
+                            <div class="packages">
+                                <a href="" class="packages__link">
+                                    <img src="./assets/img/love__travel/package-2-1024x640.jpg" alt="" class="packages__img">
+
+                                    <a href="" class="label-sale">SALE</a>
+                                </a>
+
+                                <div class="packages-infor-wrap">
+                                    <div class="packages__infor">
+                                        <h3 class="packages__place">San Francisco</h3>
+                                        <span class="packages__continents"><i class="locate-icon fas fa-map-marker-alt"></i> United States</span>
+                                    
+                                        <a href="" class="packages__iconic-purple">
+                                            <img src="./assets/img/love__travel/golden-gate.png" alt="" class="packages__iconic-img">
+                                        </a>
+                                    </div>
+
+                                    <div class="packages__price">
+                                        <div class="packages__purpose">
+                                            <a href="" class="packages__purpose-text">SPORT</a>
+                                            <div class="packages__purpose-wrap">
+                                                <a href="" class="packages__purpose-text">RELAX</a>
+                                                <span class="label-plus-purple">+ 1</span>
+                                            </div>
+                                        </div>
+
+                                        <h2 class="packages__price-now"><span class="old-price">1000</span> 700 $</h2>
+                                    </div>
+
+                                    <div class="packages__introduce">
+                                        <p class="packages__introduce-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                                        <a href="" class="packages-introduce-btn-purple view-btn">DETAILS</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+        <div class="footer">
+            <div style="background-image: url(./assets/img/love__travel/parallax-7.jpg);" class="footer__background">
+                <div class="footer__background-wrap">
+                    <div class="footer-form">
+                        <div class="footer-form__recommend">
+                            <p class="footer-form__recommend-title">KEEP IN TOUCH</p>
+                            <h2 class="footer-form__recommned-heading">Travel with Us</h2>
+                        </div>
+
+                        <div class="footer-form__submit">
+                            <form action="">
+                                <input class="footer-form__submit-input" required type="text" name="" placeholder="Email">
+                                <input class="footer-form__submit-btn" type="submit" value="SUBSCRIBE">
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-frame">
+                        <div class="grid">
+                            <div class="grid__row not-mg">
+                                <div class="grid__column-50">
+                                    <div class="footer-frame__about">
+                                        <img src="./assets/img/love__travel/logo-color.png" alt="logo travel" class="footer-frame__logo">
+                                        <p class="footer-frame__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh condimentum venenatis eu ac magnasin. Quisque interdum est mauris, eget ullamcorper.</p>
+                                        <!-- Socials -->
+                                        <div class="footer-frame__socials">
+                                            <a href="" class="footer-frame__social-link"><i class="footer-frame__social-icon fab fa-twitter"></i></a>
+                                            <a href="" class="footer-frame__social-link"><i class="footer-frame__social-icon fab fa-youtube"></i></a>
+                                            <a href="" class="footer-frame__social-link"><i class="footer-frame__social-icon fab fa-facebook-square"></i></a>
+                                            <a href="" class="footer-frame__social-link"><i class="footer-frame__social-icon fab fa-vimeo-v"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-50">
+                                    <div class="footer-frame__service">
+                                        <div class="footer-frame__col">
+                                            <h3 class="footer-frame__heading">OUR AGENCY</h3>
+                                            <ul class="footer-frame__list">
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> Services</li>
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> Insurancee</li>
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> Agency</li>
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> Tourism</li>
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> Payment</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="footer-frame__col">
+                                            <h3 class="footer-frame__heading">PARTNERS</h3>
+                                            <ul class="footer-frame__list">
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> Booking</li>
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> RentalCar</li>
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> HostelWorld</li>
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> Trivago</li>
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> TripAdvisor</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="footer-frame__col">
+                                            <h3 class="footer-frame__heading">LAST MINUTE</h3>
+                                            <ul class="footer-frame__list">
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> London</li>
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> California</li>
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> Indonesia</li>
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> Europe</li>
+                                                <li class="footer-frame__item"><i class="fas fa-chevron-right"></i> Oceania</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-full-width">
+                                    <div class="footer-frame__copy-right">
+                                        <span class="footer-frame__copy-right-text">THE BEST WORDPRESS TRAVEL THEME</span>
+                                        <span class="footer-frame__copy-right-text">COPY RIGHT © NICDARK THEMES 2021</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    
+                    <div class="buy-wrap">
+                        <span class="buy-now">BUY NOW</span>
+                        
+
+                        <a href="#" class="buy-price">
+                            <span class="buy-price-unit">$</span>
+                            <span class="buy-price-num">54</span>
+
+                            <a href="" class="buy-iconic">
+                                <img src="./assets/img/love__travel/envato.png" alt="" class="buy-img">
+                            </a>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

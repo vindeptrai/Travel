@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+:root {
+    --primary-color: #ba71da;
+    --off-white: #f6f6f6;
+    --brand-gradient: linear-gradient(90deg,#8ea1e1,#7289da);
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.grid {
+    width: 1070px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.not-mg {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.grid__column-full-width {
+    width: 100%;
+}
+
+.grid__column-50 {
+    width: 50%;
+}
+
+.grid__column {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: calc(100% / 3);
+}
+
+.grid__column-35 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 35%;
+}
+
+.grid__column-65 {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 65%;
+}
+
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    background-color: var(--primary-color);
+    padding: 12px 15px 10px; 
+    border-radius: 30px;
+}
+
+.view-btn {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    background-color: #fff;
+    padding: 8px 15px 8px; 
+    border-radius: 30px;
+}
+
+.label-hot {   
+    float: right; 
+    font-size: 9px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #f76570;
+    padding: 3px 4px;
+}
+
+.label-new {    
+    float: right;
+    font-size: 9px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #1bbc9b;
+    padding: 3px 4px;
+}
+
+
+.label-best {    
+    float: right;
+    font-size: 9px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #14b9d5;
+    padding: 3px 4px;
+}
+
+.label-price {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    padding: 6px 16px;
+    color: #fff;
+    border-radius: 28px;
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+}
+
+.label-price-hongkong {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    padding: 6px 16px;
+    color: #fff;
+    border-radius: 28px;
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%);
+}
+
+.label-price-us {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    padding: 6px 16px;
+    color: #fff;
+    border-radius: 28px;
+    background: linear-gradient(to right, #ba71da 0%, #da717b 100%);
+}
+
+.label-price-japan {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    padding: 6px 16px;
+    color: #fff;
+    border-radius: 28px;
+    background: linear-gradient(to right, #1bbc9b 0%, #1bbc63 100%);
+}
+
+.label-price-thailan {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    padding: 6px 16px;
+    color: #fff;
+    border-radius: 28px;
+    background: linear-gradient(to right, #14b9d5 0%, #14d5b1 100%);
+}
+
+/* Label +1 */
+.label-plus-yellow {
+    font-size: 9px;
+    padding: 2px 9px;
+    color: #fff;
+    background-color: #ffd205;
+    border-radius: 30px;
+}
+
+.label-plus-red {
+    font-size: 9px;
+    padding: 2px 9px;
+    color: #fff;
+    background-color: #f76570;
+    border-radius: 30px;
+}
+
+.label-plus-purple {
+    font-size: 9px;
+    padding: 2px 9px;
+    color: #fff;
+    background-color: #ba71da;
+    border-radius: 30px;
+}
+
+.old-price {
+    font-size: 18px;
+    color: #9a9a9a;
+    letter-spacing: 1px;
+    text-decoration: line-through;
+}
+
+/* Title */
+.content__heading-title {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1.8px;
+    color: #9a9a9a;
+}
+
+.content__heading-sub-title {
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 40px;
+    color: #555;
+    font-weight: 800;
+}
+
+
+/* Chữ gạch chân */
+.style-underline {
+    position: relative;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: #555;
+    font-weight: 800;
+}
+
+.style-underline::after {
+    z-index: -3;
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: cadetblue;
+}
+
+/* icon locate */
+.locate-icon {
+    color: #f35461;
+}
+

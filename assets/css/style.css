@@ -245,7 +245,7 @@
 .header__iconic-wrap {
     width: 25%;
     text-decoration: none;
-    padding: 12px;
+    margin: 12px;
 }
 
 .header__iconic-item {

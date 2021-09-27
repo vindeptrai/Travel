@@ -352,4 +352,8 @@
     .footer-form {
         padding-left: 26px;
     }
+    
+    .header__form-search {
+        right: 30px;
+    }
 }

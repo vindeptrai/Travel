@@ -1231,6 +1231,11 @@
     padding: 7px 0;
 }
 
+.footer-frame__item-link {
+    text-decoration: none;
+    color: #9a9a9a;
+}
+
 .footer-frame__item i {
     font-size: 8px;
     color: #ccc;

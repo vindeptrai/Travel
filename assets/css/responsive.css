@@ -283,6 +283,10 @@
     .footer-frame {
         margin-top: 40px;
     }
+
+    .footer-frame__list {
+        padding-left: 85px;
+    }
     
     .footer-frame__about {
         padding-bottom: 0;
